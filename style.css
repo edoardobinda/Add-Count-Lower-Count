@@ -1,0 +1,89 @@
+
+body {
+    background-image: url("./images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;  /* responsive height */
+}
+       
+#contenitore {
+    display: block;
+    height: 800px;
+    width: 650px;
+    float: right;
+    border: solid 2px black; 
+    color: white;
+    background-color: rgb(179, 191, 209);  
+    }
+
+#counter{
+    display: block;
+    border: solid 2px black;
+    margin: 25px;
+    height: 90%;
+    }
+
+#titolocounter{
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    /*border: solid 2px black;*/
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 35px;
+    margin-top: 100px; 
+    }
+
+#numerocounter{    
+    /*border: solid 2px black;*/
+    font-size: 54px;
+    text-align: center;
+    padding: 25px;
+    display: block;
+    margin: 0 auto;
+    height: 35px;
+    width: min-content;
+    }
+
+#lower{
+    margin-top: 120px;
+    text-align: center;
+    padding: 25px;
+    display: block;
+    float: left;
+    margin-left: 150px;
+    margin-right: 50px;
+    height: min-content;
+    width: min-content;
+    background-color: red; 
+    color: whitesmoke;
+        }
+
+#add{
+    margin-top: 120px;
+    text-align: center;
+    padding: 25px;
+    display: block;
+    float: right;
+    margin-right: 150px;
+    margin-left: 50px;    
+    width: min-content;
+    background-color: green;
+    color: whitesmoke;
+    }
+
+#reset{
+    text-align: center;
+    padding: 25px;
+    display: block;
+    margin-top: 120px;
+    margin: 120px auto;    
+    width: min-content;
+    background-color: grey;
+    color: whitesmoke;
+    }
